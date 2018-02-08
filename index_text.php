@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
 <style>
-#wrapper {
-background-color: pink;
+
+.jumbotron { 
+    background-color: #f4511e; /* Orange */
+    color: #ffffff;
 }
 h1 {
   text-align: center;
@@ -26,9 +28,10 @@ h1 {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<div id="wrapper" class="container-fluid">
-  <h1>hallo</h1>
-</div>
+<div class="jumbotron text-center">
+    <h1>Company</h1> 
+    <p>We specialize in blablabla</p> 
+  </div>
 
 
 
