@@ -64,6 +64,8 @@
   <title>Login & Registration System</title>
 </head>
 <body>
+
+  <div class="container-fluid">
     <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">
  
 
@@ -97,7 +99,7 @@ echo $errMSG; ?>
     </form>
     </div>
 </div>
-
+</div>
 </body>
 </html>
 
